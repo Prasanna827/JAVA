@@ -1,22 +1,22 @@
-// import java.util.Scanner;
+import java.util.Scanner;
 
-// public class Switch
-// {
-// 	public static void main(String[] args) {
-// 		Scanner in = new Scanner(System.in);
+public class Switch
+{
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
 
-//         System.out.println("Enter Fruit Name: ");
-//         String fruit = in.next();
+        System.out.println("Enter Fruit Name: ");
+        String fruit = in.next();
 	
-// 		switch(fruit) {
-// 		    case "mango" -> System.out.println("king of fruits");
-// 		    case "apple" -> System.out.println("small red coloured");
-// 		    case "banana" -> System.out.println("halfmoon shaped");
-// 		    case "grape" -> System.out.println("green cherry");
-// 		    default -> System.out.println("Enter correct fruit");
-// 	    }
-// 	}
-// }
+		switch(fruit) {
+		    case "mango" -> System.out.println("king of fruits");
+		    case "apple" -> System.out.println("small red coloured");
+		    case "banana" -> System.out.println("halfmoon shaped");
+		    case "grape" -> System.out.println("green cherry");
+		    default -> System.out.println("Enter correct fruit");
+	    }
+	}
+}
 
 import java.util.Scanner;
 
